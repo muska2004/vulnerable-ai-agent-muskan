@@ -28,7 +28,7 @@ permissions:
   # actions: read            # only needed if SARIF upload step below is re-enabled
 
 env:
-  IMAGE_NAME: muskan-code-scan
+  IMAGE_NAME: anmol-code-scan
   QSCANNER_GATEWAY_URL: https://gateway.qg1.apps.qualys.ca
   QUALYS_CLIENT_ID: ${{ secrets.QUALYS_CLIENT_ID }}
   QUALYS_CLIENT_SECRET: ${{ secrets.QUALYS_CLIENT_SECRET }}
